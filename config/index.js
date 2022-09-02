@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "afb40d724da9b8fa2f370388712ad99a",
 
     // 模板消息id
-    TEMPLATE_ID: "oihqhDkzwSb-x0_qpz7IlpPaSIIvpeqrnl4BpRDgUTs",
+    TEMPLATE_ID: "Ge7jbncihhhw8e1-3yJcT_w4ffSK6FnGteR93d7T37U",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "oUuRck9iq37j10Lj1eOGmG1svw1yQoKh-OHP6q1fn1k",
@@ -50,6 +50,8 @@ export const config = {
       {"type": "生日", "name": "猪排", "year": "1999", "date": "12-19"},
       {"type": "节日", "name": "周年纪念日", "year": "2019", "date": "12-15"},
       {"type": "生日", "name": "🐰", "year": "1996", "date": "03-11"},
+      {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
+      {"type": "节日", "name": "国庆节", "year": "2022", "date": "10-01"},
     ],
 
     /**
@@ -66,10 +68,8 @@ export const config = {
       * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
       * */
     CUSTOMIZED_DATE_LIST: [
-      // 中秋节
-      {"keyword": "mid_autumn", date: "2022-09-10"},
-      // 国庆节
-      {"keyword": "national_day", date: "2022-10-01"},
+       // 恋爱纪念日
+      {"keyword": "love_day", date: "2019-12-15"},
     ],
 
     /** 插槽 */
