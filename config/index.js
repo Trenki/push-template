@@ -13,18 +13,14 @@ export const config = {
     TEMPLATE_ID: "oihqhDkzwSb-x0_qpz7IlpPaSIIvpeqrnl4BpRDgUTs",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "",
+    CALLBACK_TEMPLATE_ID: "oUuRck9iq37j10Lj1eOGmG1svw1yQoKh-OHP6q1fn1k",
 
 
     /**
-     * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-     * [
-     *   {name: '老婆0', id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk"}, 
-     *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
-     * ]
+     * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
      */
     USERS: [
-      {name: '本人', id: "ocLYm6rcVcESxBJBXqt2R3Y7DMGU"}, 
+      {name: '兔兔', id: "ocLYm6rcVcESxBJBXqt2R3Y7DMGU"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -51,10 +47,9 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "生日", "name": "猪排", "year": "1999", "date": "12-19"},
+      {"type": "节日", "name": "周年纪念日", "year": "2019", "date": "12-15"},
+      {"type": "生日", "name": "🐰", "year": "1996", "date": "03-11"},
     ],
 
     /**
@@ -62,7 +57,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 4,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -71,15 +66,10 @@ export const config = {
       * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
       * */
     CUSTOMIZED_DATE_LIST: [
-      // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
-      // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
-      // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
-      // sakana日
-      // {"keyword": "sakana_day", date: "2022-01-06"},
-      // ... 
+      // 中秋节
+      {"keyword": "mid_autumn", date: "2022-09-10"},
+      // 国庆节
+      {"keyword": "national_day", date: "2022-10-01"},
     ],
 
     /** 插槽 */
