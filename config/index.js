@@ -59,6 +59,7 @@ export const config = {
       {"type": "节日", "name": "劳动节", "year": "2023", "date": "05-01"},
       {"type": "节日", "name": "中秋节", "year": "2023", "date": "09-29"},
       {"type": "节日", "name": "国庆节", "year": "2023", "date": "10-01"},
+      {"type": "节日", "name": "猪排回家", "year": "2022", "date": "12-10"},
     ],
 
     /**
